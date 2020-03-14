@@ -219,6 +219,9 @@ body {
 }
 
 .client_feedback {
+    font-weight: 500;
+    color: #0a0b0c;
+    font-size: 18px;
     margin: 30px 0;
 }
 
@@ -234,3 +237,42 @@ body {
 }
 
 /* testimonials end*/
+/* footer */
+.footer_menu ul li {
+    padding: 0 5px;
+}
+
+.footer_menu ul li a:hover {
+    color: #1769ff !important;
+}
+
+.input-group-custom {
+    width: 200px;
+}
+
+.input-group-custom input {
+    height: 50px;
+    border-radius: 25px !important;
+
+}
+
+.footer_search_icon_wrapper {
+    position: relative;
+    left: -45px;
+    z-index: 999999999;
+}
+
+.footer_search_icon {
+    background-color: transparent;
+    border: none;
+}
+
+/*   footer */
+/* copyright */
+.copyright {
+    padding: 20px 0;
+    color: #777777;
+    border-top: 2px solid #ececec;
+}
+
+/* copyright */

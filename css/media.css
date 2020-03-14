@@ -75,6 +75,19 @@
     }
 
     /* hire */
+    /* testimonial */
+    .testimonial_title {
+        font-size: 28px !important;
+        margin-bottom: 15px;
+    }
+
+    /* testimonial */
+    /* footer */
+    .footer_menu ul {
+        margin: auto;
+    }
+
+    /* footer */
 }
 
 /* Small devices (landscape phones, 576px and up) */
