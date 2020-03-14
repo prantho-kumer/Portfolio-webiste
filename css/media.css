@@ -4,6 +4,10 @@
         padding: 40px 0;
     }
 
+    .second_row {
+        margin-top: 10px;
+    }
+
     /* header start*/
     .header {
         padding-top: 20px;
@@ -50,13 +54,37 @@
         margin-top: 10px;
     }
 
+    .single_slider-right-content p {
+        display: none;
+    }
+
     /* banner end */
+    /* hire */
+    .hire_title h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .hire_text {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .hire_button {
+        margin-top: 15px;
+    }
+
+    /* hire */
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     .section_padding {
         padding: 50px 0;
+    }
+
+    .second_row {
+        margin-top: 20px;
     }
 
     /* header start*/
@@ -100,6 +128,21 @@
     }
 
     /* banner end */
+    /* hire */
+    .hire_title h1 {
+        text-align: center;
+    }
+
+    .hire_text {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .hire_button {
+        margin-top: 15px;
+    }
+
+    /* hire */
 }
 
 /* Medium devices (tablets, 768px and up) */

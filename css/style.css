@@ -19,6 +19,14 @@ body {
     padding: 80px 0;
 }
 
+.section_bg_color {
+    background-color: #f4f4f4;
+}
+
+.second_row {
+    margin-top: 30px;
+}
+
 /* header start*/
 .header {
     padding-top: 60px;
@@ -26,11 +34,8 @@ body {
     background-color: #f4f4f4;
 }
 
-.header_logo img {}
-
 .menu ul li {
     padding: 0 30px;
-
 }
 
 .menu ul li:last-child {
@@ -111,4 +116,121 @@ body {
 
 }
 
+.slide_control {
+    font-size: 32px;
+    color: #1769ff;
+}
+
 /* banner end */
+/* services start */
+.section_title h1 {
+    font-size: 32px;
+}
+
+
+
+.service_single_icon {
+    font-size: 32px;
+    color: #1769ff;
+}
+
+.service_single_wrapper h4 {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+.service_single_wrapper {
+    margin-top: 10px;
+}
+
+.service_single_wrapper hr {
+    width: 40px;
+    margin: 15px auto;
+    height: 3px;
+    border: none;
+    border-radius: 50px;
+    background-color: #1769ff;
+}
+
+.service_single_wrapper p {
+    font-family: 'Raleway',
+        sans-serif;
+}
+
+/* services end*/
+/* portfolio start */
+.portfolio_image {
+    margin-top: 30px;
+
+}
+
+.portfolio_image {
+    opacity: .7;
+    transition: .3s;
+}
+
+.portfolio_image:hover {
+    opacity: 1;
+}
+
+
+/* portfolio end*/
+/* hire start */
+.hire_text {
+    font-family: 'Raleway',
+        sans-serif;
+    color: #777777;
+}
+
+.hire_button a {
+    text-decoration: none;
+}
+
+/* hire end */
+/* testimonials start */
+.testimonial_single_content {
+    font-family: 'Raleway',
+        sans-serif;
+    text-align: center;
+}
+
+.client_img {
+    width: 120px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.client_img img {
+    border-radius: 50%;
+}
+
+.client_name {
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 15px;
+    color: #0a0b0c;
+}
+
+.client_profession {
+    font-weight: 500;
+    color: #8b8b8b;
+}
+
+.client_feedback {
+    margin: 30px 0;
+}
+
+.carousel-indicators-custom {
+    bottom: -50px;
+}
+
+.carousel-indicators-custom li {
+    background-color: #1769ff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* testimonials end*/
